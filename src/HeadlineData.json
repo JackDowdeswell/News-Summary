@@ -1,0 +1,24 @@
+{
+    "headlines": [
+        {
+            "_id": "5cc08495bf3fd62d03f2f4c1",
+            "title": "Headline 1",
+            "image": "Image placeholder 1"
+        },
+        {
+            "_id": "5cc08495bf3fd62d03f2f4c2",
+            "title": "Headline 2",
+            "image": "Image placeholder 2"
+        },
+        {
+            "_id": "5cc08495bf3fd62d03f2f4c3",
+            "title": "Headline 3",
+            "image": "Image placeholder 3"
+        },
+        {
+            "_id": "5cc08495bf3fd62d03f2f4c4",
+            "title": "Headline 4",
+            "image": "Image placeholder 4"
+        }
+    ]
+}

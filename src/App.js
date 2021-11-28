@@ -1,9 +1,11 @@
 import './App.css';
 import React, { useState } from 'react';
-import HeadlineList from './HeadlineList';
+import HeadlineList from './Components/HeadlineList';
+import HeadlineData from './HeadlineData.json';
 
 function App() {
-  const [headlines, setHeadlines] = useState([{ title: 'Headline 1', image: 'image placeholder1' }, { title: 'Headline 2', image: 'image placeholder2' }, { title: 'Headline 3', image: 'image placeholder3' }])
+  const { headlines } = HeadlineData;
+  // const [headlines, setHeadlines] = useState([{ headlines }])
   return (
     <>
       <div className="App">

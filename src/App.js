@@ -2,8 +2,10 @@ import './App.css';
 import React, { useState } from 'react';
 import HeadlineList from './Components/HeadlineList';
 import HeadlineData from './HeadlineData.json';
+import { getGuardianArticles } from './GuardianAPI';
 
 function App() {
+  getGuardianArticles();
   const { headlines } = HeadlineData;
   // const [headlines, setHeadlines] = useState([{ headlines }])
   return (

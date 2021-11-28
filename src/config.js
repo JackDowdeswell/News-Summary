@@ -1,0 +1,1 @@
+export const GUARDIAN_API_KEY = "c988d4f3-0e4f-4120-ad38-552b4d04ef0f";

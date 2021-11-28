@@ -7,10 +7,10 @@ export default function Headline({ headline }) {
     return (
         <>
             <div>
-                {headline.image}
+                {headline.length}
             </div>
             <div>
-                {headline.title}
+                {/* {headline} */}
             </div>
         </>
     )

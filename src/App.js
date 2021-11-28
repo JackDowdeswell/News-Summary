@@ -2,18 +2,20 @@ import './App.css';
 import React, { useState } from 'react';
 import HeadlineList from './Components/HeadlineList';
 import HeadlineData from './HeadlineData.json';
+import Headline from './Headline';
 import { getGuardianArticles } from './GuardianAPI';
 
 function App() {
-  getGuardianArticles();
   const { headlines } = HeadlineData;
-  // const [headlines, setHeadlines] = useState([{ headlines }])
+  const [articles, setArticles] = useState([getGuardianArticles()]);
+  // const [error, setError] = useState([]);
+  console.log({ articles });
   return (
     <>
       <div className="App">
         <header className="App-header">
           <p>
-            <HeadlineList headlines={headlines} />
+            <Headline headline={articles} />
           </p>
           <a
             className="App-link"

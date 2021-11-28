@@ -1,13 +1,15 @@
 import './App.css';
-import Headlines from './Headlines';
+import React, { useState } from 'react';
+import HeadlineList from './HeadlineList';
 
 function App() {
+  const [headlines, setHeadlines] = useState([{ title: 'Headline 1', image: 'image placeholder1' }, { title: 'Headline 2', image: 'image placeholder2' }, { title: 'Headline 3', image: 'image placeholder3' }])
   return (
     <>
       <div className="App">
         <header className="App-header">
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            <HeadlineList headlines={headlines} />
           </p>
           <a
             className="App-link"
@@ -19,8 +21,6 @@ function App() {
           </a>
         </header>
       </div>
-
-      <Headlines />
     </>
   );
 }

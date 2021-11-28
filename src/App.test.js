@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
-import Headlines from './Headlines';
+import HeadlineList from './HeadlineList';
 
 test('renders DFA Github link', () => {
   render(<App />);
@@ -9,7 +9,7 @@ test('renders DFA Github link', () => {
 });
 
 test('renders a headline through headline component', () => {
-  render(<Headlines />);
+  render(<HeadlineList />);
   const testHeadline = screen.getByText(/Test Headline/i);
   expect(testHeadline).toBeInTheDocument();
 })

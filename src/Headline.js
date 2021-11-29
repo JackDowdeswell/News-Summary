@@ -3,14 +3,15 @@ import React from 'react'
 
 export default function Headline({ headline }) {
 
-    // const { title, image, _id } = headline;
+    // console.log(headline)
+    // const { id, title } = headline;
     return (
         <>
             <div>
-                {headline.length}
+                {headline}
             </div>
             <div>
-                {/* {headline} */}
+                {/* {id} */}
             </div>
         </>
     )

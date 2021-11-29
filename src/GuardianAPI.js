@@ -1,11 +1,12 @@
 import { GUARDIAN_API_KEY } from "./config";
+import axios from 'axios';
 
 export const getGuardianArticles = async () => {
-    const response = await fetch(
+    const response = await axios.get(
         `https://content.guardianapis.com/search?api-key=${GUARDIAN_API_KEY}`
     );
-    const json = await response.json().results;
-    console.log(json)
+    const json = response.data.response.results.slice(0, 4);
+    // console.log(json)
     return json;
 };
 

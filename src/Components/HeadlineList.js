@@ -3,9 +3,15 @@ import Headline from '../Headline';
 // import headlineData from '../HeadlineData.json';
 
 export default function HeadlineList({ headlines }) {
+    console.log(headlines)
     return (
-        headlines.map(headline => {
-            return <Headline headline={headline} />
-        })
+        <>
+            <div>
+                {[headlines.length]}
+            </div>
+            <div>
+                {/* {id} */}
+            </div>
+        </>
     )
 }

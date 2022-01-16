@@ -10,8 +10,8 @@ function App() {
   useEffect(() => {
     getGuardianArticles().then(news => {
       // setArticles(JSON.stringify(news, null, 2));
-      setHeadlines(news.response.results)
-      console.log(news.response.results)
+      setHeadlines(news)
+      console.log(news)
     });
   }, [])
 

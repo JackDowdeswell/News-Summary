@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.article {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
 body {
   background-image: url("./images/26669.jpg");
   background-size: 20%;
@@ -15,15 +20,21 @@ body {
 .headline-text {
   color: black;
   font-weight: bold;
-  font-size: 25px;
-  font-family:'Times New Roman', Times, serif
+  font-size: 30px;
 }
 
 .header {
   width: auto;
-  height: 100px;
+  height:min-content;
   background-color:#052962;
+  min-width: min-content;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
+
+/* img {
+  height: 350px;
+} */
 
 .title-text {
   color: white;

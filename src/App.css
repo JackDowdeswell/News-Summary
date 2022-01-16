@@ -1,3 +1,33 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url("./images/26669.jpg");
+  background-size: 20%;
+  background-color: azure;
+}
+
+.container-sm {
+  background-color: white;
+}
+
+.headline-text {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.header {
+  width: auto;
+  height: 100px;
+  background-color:#052962;
+}
+
+.title-text {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 8px;
+}

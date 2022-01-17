@@ -13,6 +13,12 @@ body {
   background-color: azure;
 }
 
+.card {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+
 .container-sm {
   background-color: white;
 }
@@ -24,17 +30,14 @@ body {
 }
 
 .header {
-  width: auto;
+  width: 100%;
   height:min-content;
   background-color:#052962;
   min-width: min-content;
   padding-bottom: 20px;
   padding-top: 10px;
+  margin: auto;
 }
-
-/* img {
-  height: 350px;
-} */
 
 .title-text {
   color: white;
